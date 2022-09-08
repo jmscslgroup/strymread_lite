@@ -13,7 +13,7 @@ def readme():
 v = Path(PACKAGE_NAME + "/version").open(encoding = "utf-8").read().splitlines()
 
 setuptools.setup(
-    name='strym',
+    name=PACKAGE_NAME,
     version=v[0].strip(),
     author="Alex Richardson",
     author_email="william.a.richardson@vanderbilt.edu",
