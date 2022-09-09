@@ -33,7 +33,7 @@ setuptools.setup(
         ],
     keywords='candata, can, autonomous vehicle, ACC, adaptive cruise control, USB, Panda, Traffic, Transportation',
     include_package_data=True,
-    package_data={'strym': ['README.md', 'dbc/*.*','version']},
+    package_data={'strymread_lite': ['README.md', 'dbc/*.*','version']},
     zip_safe=False
         )
 
