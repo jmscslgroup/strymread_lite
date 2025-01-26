@@ -310,7 +310,7 @@ class strymread_lite:
                     print("Retrieving model of the vehicle requires internet connection. Check your connection.")
                     return
                 year = str(vp.year(vin))
-                LOGGER.info("Vehicle model infered is {}-{}-{}".format(brand, model, year))
+                LOGGER.info("Vehicle model inferred is {}-{}-{}".format(brand, model, year))
 
         except:
             if self.verbose:
